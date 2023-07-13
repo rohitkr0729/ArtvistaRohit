@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    height: 100%;
+  }
+  
+  #parallax {
+    /* The image used */
+    background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/KUKM3FDC6NEVHMSPSCOYUDEAM4.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  #rohit {
+    /* The image used */
+    background-image: url('https://images.pexels.com/photos/3004909/pexels-photo-3004909.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-3004909.jpg&fm=jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+
+  .navstyle2
+{
+  padding-top: 7px;
+  list-style: none;
+  display: inline-flex;
+  padding-left: 1rem;
+}
